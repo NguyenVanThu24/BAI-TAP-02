@@ -84,13 +84,23 @@ _____
 ![GVCN (2)](https://github.com/user-attachments/assets/b27baf5c-5446-408b-83bf-636a6d54ac84)
 2. Tiếp theo là lưu bảng với tên GVCN như hình.
 ![GVCN (1)](https://github.com/user-attachments/assets/d5319ed0-26ae-476c-b373-32a489a6bbd4)
-
+3. Thao tác thực hiện FK: Click chuột phải chọn Relationships tại khoảng trắng của bảng và thực hiện các thao tác như trong phần mô tả của hình vẽ sau đây.
+![reGVCN](https://github.com/user-attachments/assets/43ac7132-f703-48bd-b22b-da649ac858f8)
+![reGVCN (2)](https://github.com/user-attachments/assets/baf8fea2-b2b6-4c11-8c3a-84dce1b25a06)
+![reGVCN (4)](https://github.com/user-attachments/assets/70bd1287-eb25-44e9-9a99-ccd7e64676c3)
+![reGVCN (3)](https://github.com/user-attachments/assets/f0845290-6985-4f6e-8b37-b19708d84a73)
+![reGVCN (1)](https://github.com/user-attachments/assets/51e20790-28f7-4bd1-b39d-03df44f382a3)
 
 ### Thao tác tạo bảng dữ liệu: LopSV(#@maLop,#@maSV,ChucVu)
 1. Thao tác tạo khóa chính cho bảng dữ liệu LopSV.
 ![LopSV (1)](https://github.com/user-attachments/assets/e2d25206-a007-4ae3-87a7-5ee1da31c51a)
 2. Tiếp theo là lưu bảng với tên LopSV như hình.
 ![LopSV (2)](https://github.com/user-attachments/assets/66163715-6dfd-4f9c-9128-cc2fc68ff71b)
+3. Thao tác thực hiện FK: Click chuột phải chọn Relationships tại khoảng trắng của bảng và thực hiện các thao tác như trên bảng GVCN.
+![reLopSV (4)](https://github.com/user-attachments/assets/f0a33a1f-a194-467e-a6c4-7278fb2dac52)
+![reLopSV (3)](https://github.com/user-attachments/assets/f06bd18d-fe28-49a6-9767-3abced42c315)
+![reLopSV (2)](https://github.com/user-attachments/assets/4fd7d1a4-cbd9-4033-abeb-3e0c0e4fbef3)
+![reLopSV (1)](https://github.com/user-attachments/assets/5ca9eaa0-5c4c-484f-adcb-8f9325ee51c1)
 
 ### Thao tác tạo bảng dữ liệu: GiaoVien(#magv,hoten,NgaySinh,@maBM)
 1. Thao tác tạo khóa chính cho bảng dữ liệu GiaoVien.
@@ -99,14 +109,16 @@ _____
 ![GiaoVien (3)](https://github.com/user-attachments/assets/5b181e53-ee20-4bbe-95ae-28817dd52ada)
 3. Thiết lập điều kiện CK cho bảng GiaoVien tại trường NgaySinh với điều kiện như hình.
 ![GiaoVien (1)](https://github.com/user-attachments/assets/fd4d7234-62ff-4680-9201-5d5fbc8e5148)
-
+4. Thao tác thực hiện FK: Click chuột phải chọn Relationships tại khoảng trắng của bảng và thực hiện các thao tác như trên bảng GVCN.
+![reGiaoVien (3)](https://github.com/user-attachments/assets/79daab01-b7b3-432a-b40b-4ddfaf9b65ed)
+![reGiaoVien (2)](https://github.com/user-attachments/assets/d287e9c0-54c1-4899-8d07-f2b11fe27648)
+![reGiaoVien (1)](https://github.com/user-attachments/assets/cb36e868-492c-49e6-834c-3a58334036db)
 
 ### Thao tác tạo bảng dữ liệu: BoMon(#MaBM,tenBM,@maKhoa)
 1. Thao tác tạo khóa chính cho bảng dữ liệu BoMon.
 ![BoMon (2)](https://github.com/user-attachments/assets/f54e3bb3-6eaf-459f-9758-ebbcab19ed6a)
 2. Tiếp theo là lưu bảng với tên BoMon như hình.
 ![BoMon (1)](https://github.com/user-attachments/assets/ead53f46-9a93-486d-b098-83f6a95615b4)
-
 
 ### Thao tác tạo bảng dữ liệu: Khoa(#maKhoa,tenKhoa)
 1. Thao tác tạo khóa chính cho bảng dữ liệu Khoa.
@@ -119,12 +131,20 @@ _____
 ![MonHoc (2)](https://github.com/user-attachments/assets/1c1f2327-8b53-422e-aa97-5e2d209cea6b)
 2. Tiếp theo là lưu bảng với tên MonHoc như hình.
 ![MonHoc (1)](https://github.com/user-attachments/assets/cb64acf3-b2e0-403c-a926-948a33722019)
+3. Thao tác thực hiện FK: Click chuột phải chọn Relationships tại khoảng trắng của bảng và thực hiện các thao tác như trên bảng GVCN.
+![reBoMon (3)](https://github.com/user-attachments/assets/b8e9ca92-ccea-419d-abf2-b009ada025c0)
+![reBoMon (2)](https://github.com/user-attachments/assets/b87da124-39a5-4e00-a340-24e0e910995c)
+![reBoMon (1)](https://github.com/user-attachments/assets/217b51a3-3123-4abb-bcff-cce121f63f45)
 
 ### Thao tác tạo bảng dữ liệu: LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
 1. Thao tác tạo khóa chính cho bảng dữ liệu LopHP.
 ![LopHP (2)](https://github.com/user-attachments/assets/9c388581-bdd9-4638-96a6-1e2ebe1ca169)
 2. Tiếp theo là lưu bảng với tên LopHP như hình.
 ![LopHP (1)](https://github.com/user-attachments/assets/3a15e588-dea7-48c1-a3fc-2406b6387491)
+3. Thao tác thực hiện FK: Click chuột phải chọn Relationships tại khoảng trắng của bảng và thực hiện các thao tác như trên bảng GVCN.
+![reLopHP (1)](https://github.com/user-attachments/assets/c98ad182-1bd9-45d0-a057-02880508d30a)
+![reLopHP (3)](https://github.com/user-attachments/assets/1e943ae3-ea23-494c-9364-01106ef60f1c)
+![reLopHP (2)](https://github.com/user-attachments/assets/aff6329f-30a0-46a8-9361-f385b6996c69)
 
 ### Thao tác tạo bảng dữ liệu: DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
 1. Thao tác tạo khóa chính cho bảng dữ liệu DKMH.
@@ -135,4 +155,12 @@ _____
 ![DKMH (4)](https://github.com/user-attachments/assets/363c80d6-fbcf-47ba-a246-320e7a03cc5e)
 4. Sau khi thiết lập thành công CK, thì thử nhập dữ liệu cho bảng DKMH để kiểm tra nếu không vi phạm điều kiện CK thì quá trình diễn ra bình thường ngược lại nếu vi phạm CK thì hiển thị cảnh báo như hình ngay lập tức.
 ![DKMH (1)](https://github.com/user-attachments/assets/c7265b17-6f35-4783-93e2-bf51c4c1ae48)
+5. Thao tác thực hiện FK: Click chuột phải chọn Relationships tại khoảng trắng của bảng và thực hiện các thao tác như trên bảng GVCN.
+![reDKMH (3)](https://github.com/user-attachments/assets/d7ddef46-e268-4348-8b23-fe31bb91d89f)
+![reDKMH (2)](https://github.com/user-attachments/assets/e405eb61-4cf7-4038-b7ae-3dd14b042b55)
+![reDKMH (1)](https://github.com/user-attachments/assets/2ec36182-f98a-4707-96e1-9d3a118b0aeb)
 
+### Thao tác thực hiện chuyển đồ hoạ từ Database và các bảng trên thành lệnh SQL tương đương. lưu tất cả các lệnh SQL trong file: Script_DML.sql: Click chuột phải vào Database và các bảng chọn -> Sciprt Database as -> CREATE To -> New Query Editor Window.
+![Ảnh chụp màn hình 2025-03-25 195805](https://github.com/user-attachments/assets/6638f312-ebbe-4a28-8b17-00f32493b0a3)
+
+### Sau khi hoàn thành xây dựng Database và các bảng với các trường theo yêu cầu thì cá nhân em Upload File Script_DML.sql lên Github, mong thầy dành thời gian xem bài của em và chỉ ra cho em điểm nào cần cải thiện và khắc phục để em kịp thời chỉnh sửa và rút kinh nghiệm cho những lần làm bài tiếp theo. Em xin trân thành cảm ơn ạ!
