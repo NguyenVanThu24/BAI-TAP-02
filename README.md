@@ -116,18 +116,23 @@ _____
 
 ### Thao tác tạo bảng dữ liệu: MonHoc(#mamon,Tenmon,STC)
 1. Thao tác tạo khóa chính cho bảng dữ liệu MonHoc.
-
+![MonHoc (2)](https://github.com/user-attachments/assets/1c1f2327-8b53-422e-aa97-5e2d209cea6b)
 2. Tiếp theo là lưu bảng với tên MonHoc như hình.
-
+![MonHoc (1)](https://github.com/user-attachments/assets/cb64acf3-b2e0-403c-a926-948a33722019)
 
 ### Thao tác tạo bảng dữ liệu: LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
 1. Thao tác tạo khóa chính cho bảng dữ liệu LopHP.
-
+![LopHP (2)](https://github.com/user-attachments/assets/9c388581-bdd9-4638-96a6-1e2ebe1ca169)
 2. Tiếp theo là lưu bảng với tên LopHP như hình.
-
+![LopHP (1)](https://github.com/user-attachments/assets/3a15e588-dea7-48c1-a3fc-2406b6387491)
 
 ### Thao tác tạo bảng dữ liệu: DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
 1. Thao tác tạo khóa chính cho bảng dữ liệu DKMH.
-
+![DKMH (2)](https://github.com/user-attachments/assets/6badccb1-83f0-4969-87e8-a0c8a13b6188)
 2. Tiếp theo là lưu bảng với tên DKMH như hình.
+![DKMH (3)](https://github.com/user-attachments/assets/67995f73-6e1c-4a1c-8dde-20735752a0aa)
+3. Thiết lập điều kiện CK cho bảng DKMH tại các trường DiemTP, DiemThi và PhanTramThi với điều kiện như hình.
+![DKMH (4)](https://github.com/user-attachments/assets/363c80d6-fbcf-47ba-a246-320e7a03cc5e)
+4. Sau khi thiết lập thành công CK, thì thử nhập dữ liệu cho bảng DKMH để kiểm tra nếu không vi phạm điều kiện CK thì quá trình diễn ra bình thường ngược lại nếu vi phạm CK thì hiển thị cảnh báo như hình ngay lập tức.
+![DKMH (1)](https://github.com/user-attachments/assets/c7265b17-6f35-4783-93e2-bf51c4c1ae48)
 
