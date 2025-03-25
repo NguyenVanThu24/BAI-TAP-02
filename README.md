@@ -51,31 +51,43 @@ _____
 
 # Bài Làm
 
-1. Quá trình tạo New Database: Click chuột phải vào Databases -> Click vào New Database -> Thực hiện các thao tác như đặt tên, chọn nơi lưu file và chọn OK dể hoàn tất quá trình tạo Database.
+### Quá trình tạo New Database: Click chuột phải vào Databases -> Click vào New Database -> Thực hiện các thao tác như đặt tên, chọn nơi lưu file và chọn OK dể hoàn tất quá trình tạo Database.
 ![image](https://github.com/user-attachments/assets/dd826aed-e2f9-47bf-9cca-c0c458323db8)
 
-2. Quá trình tạo bảng dữ liệu với các trường đã cho: Click chuột phải vào Table và chọn New tiếp theo và chọn Table.
+### Quá trình tạo bảng dữ liệu với các trường đã cho: Click chuột phải vào Table và chọn New tiếp theo và chọn Table.
 ![image](https://github.com/user-attachments/assets/0d98fc73-69b5-4c5a-842f-ea8ac5d1ea65)
 
-3. Thao tác tạo bảng dữ liệu: SinhVien(#masv,hoten,NgaySinh).
-![image](https://github.com/user-attachments/assets/b6179d2c-2900-4b9d-9e66-8f6f29e0736c)
+### Thao tác tạo bảng dữ liệu: SinhVien(#masv,hoten,NgaySinh). 
+1. Bằng cách nhập các trường dữ liệu vào Column Name -> lữa chọn kiểu Data Type -> cuối cùng là lựa chọn tích Allow Nulls để tạo được bảng hoàn chỉnh như hình sau.
+![image](https://github.com/user-attachments/assets/b532dc98-8c5d-43a0-a052-d14dd4047b98)
+2. Sau khi hoàn thiện quá trình thiết lập bảng thì bấm tổ hợp phím Ctrl+S để đặt tên cho bảng vừa tạo, ở đây là bảng SinhVien và hoàn tất việc lưu lại bảng đó trong Database.
+![image](https://github.com/user-attachments/assets/c995a820-6341-4935-8c5a-cb0414b09dc8)
+3. Tiếp theo Click chuột phải vào trường muốn chọn làm khóa chính PK cho bảng dữ liệu, rồi Click Set Primary Key như hình để thiết lập PK cho bảng.
+![image](https://github.com/user-attachments/assets/db8feb81-6c15-4754-bdc8-01428ec832fe)
+4. Sau đó Click chuột phải vào khoảng trắng trong bảng Click chọn Check Constrant để tạo CK cho bảng SinhVien. Trong bảng SinhVien em đặt NgaySinh làm CK và các nội dung được mô tả chi tiết như trong hình sau đây.
+![image](https://github.com/user-attachments/assets/ab5d1793-cde9-4e86-8ae2-dd3c16668331)
+![image](https://github.com/user-attachments/assets/654440f8-24f6-4a03-9f3d-85abfadf078d)
+![image](https://github.com/user-attachments/assets/61ecd3cd-5bf7-423a-a88b-1fd7c76d62e5)
+5. Sau khi thiết lập thành công CK, thì thử nhập dữ liệu cho bảng SinhVien để kiểm tra nếu không vi phạm điều kiện CK thì quá trình diễn ra bình thường ngược lại nếu vi phạm CK thì hiển thị cảnh báo như hình ngay lập tức.
+![Ảnh chụp màn hình 2025-03-25 162907](https://github.com/user-attachments/assets/8f4c64ce-86ca-4a5b-9437-c997c7e79398)
 
-4. Thao tác tạo bảng dữ liệu: Lop(#maLop,tenLop).
 
-5. Thao tác tạo bảng dữ liệu: GVCN(#@maLop,#@magv,#HK)
+## Thao tác tạo bảng dữ liệu: Lop(#maLop,tenLop).
 
-6. Thao tác tạo bảng dữ liệu: LopSV(#@maLop,#@maSV,ChucVu)
+## Thao tác tạo bảng dữ liệu: GVCN(#@maLop,#@magv,#HK)
 
-7. Thao tác tạo bảng dữ liệu: GiaoVien(#magv,hoten,NgaySinh,@maBM)
+## Thao tác tạo bảng dữ liệu: LopSV(#@maLop,#@maSV,ChucVu)
 
-8. Thao tác tạo bảng dữ liệu: BoMon(#MaBM,tenBM,@maKhoa)
+## Thao tác tạo bảng dữ liệu: GiaoVien(#magv,hoten,NgaySinh,@maBM)
 
-9. Thao tác tạo bảng dữ liệu: Khoa(#maKhoa,tenKhoa)
+## Thao tác tạo bảng dữ liệu: BoMon(#MaBM,tenBM,@maKhoa)
 
-10. Thao tác tạo bảng dữ liệu: MonHoc(#mamon,Tenmon,STC)
+## Thao tác tạo bảng dữ liệu: Khoa(#maKhoa,tenKhoa)
 
-11. Thao tác tạo bảng dữ liệu: LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
+## Thao tác tạo bảng dữ liệu: MonHoc(#mamon,Tenmon,STC)
 
-12. Thao tác tạo bảng dữ liệu: DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
+## Thao tác tạo bảng dữ liệu: LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
 
-13. 
+## Thao tác tạo bảng dữ liệu: DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
+
+## 
