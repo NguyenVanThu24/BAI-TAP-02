@@ -71,23 +71,63 @@ _____
 5. Sau khi thiết lập thành công CK, thì thử nhập dữ liệu cho bảng SinhVien để kiểm tra nếu không vi phạm điều kiện CK thì quá trình diễn ra bình thường ngược lại nếu vi phạm CK thì hiển thị cảnh báo như hình ngay lập tức.
 ![Ảnh chụp màn hình 2025-03-25 162907](https://github.com/user-attachments/assets/8f4c64ce-86ca-4a5b-9437-c997c7e79398)
 
+## ***Đối với các bảng còn lại trong Database thì các thao tác thực hiện tương tự như trên, dưới đây em xin phép chụp lại kết quả từng quá trình của các bảng còn lại mà không mô tả chi tiếp nữa.***
 
-## Thao tác tạo bảng dữ liệu: Lop(#maLop,tenLop).
+### Thao tác tạo bảng dữ liệu: Lop(#maLop,tenLop).
+1. Thao tác tạo khóa chính cho bảng dữ liệu Lop.
+![Ảnh chụp màn hình 2025-03-25 164102](https://github.com/user-attachments/assets/660adfb0-a898-4eb7-a2d8-eb8ccbbe83f6)
+2. Tiếp theo là lưu bảng với tên Lop như hình.
+![Ảnh chụp màn hình 2025-03-25 164126](https://github.com/user-attachments/assets/81eea12c-65f3-4b10-bc2d-fbf0d448f2e0)
 
-## Thao tác tạo bảng dữ liệu: GVCN(#@maLop,#@magv,#HK)
+### Thao tác tạo bảng dữ liệu: GVCN(#@maLop,#@magv,#HK)
+1. Thao tác tạo khóa chính cho bảng dữ liệu GVCN. Tại bảng này chứa nhiều khóa chính vì vậy thao tác chọn khóa chính diễn ra phức tạp hơn bằng cách dùng tổ hợp phím Ctrl+Click chuột vào các trường làm khóa và chọn Set Primary Key.
+![GVCN (2)](https://github.com/user-attachments/assets/b27baf5c-5446-408b-83bf-636a6d54ac84)
+2. Tiếp theo là lưu bảng với tên GVCN như hình.
+![GVCN (1)](https://github.com/user-attachments/assets/d5319ed0-26ae-476c-b373-32a489a6bbd4)
 
-## Thao tác tạo bảng dữ liệu: LopSV(#@maLop,#@maSV,ChucVu)
 
-## Thao tác tạo bảng dữ liệu: GiaoVien(#magv,hoten,NgaySinh,@maBM)
+### Thao tác tạo bảng dữ liệu: LopSV(#@maLop,#@maSV,ChucVu)
+1. Thao tác tạo khóa chính cho bảng dữ liệu LopSV.
+![LopSV (1)](https://github.com/user-attachments/assets/e2d25206-a007-4ae3-87a7-5ee1da31c51a)
+2. Tiếp theo là lưu bảng với tên LopSV như hình.
+![LopSV (2)](https://github.com/user-attachments/assets/66163715-6dfd-4f9c-9128-cc2fc68ff71b)
 
-## Thao tác tạo bảng dữ liệu: BoMon(#MaBM,tenBM,@maKhoa)
+### Thao tác tạo bảng dữ liệu: GiaoVien(#magv,hoten,NgaySinh,@maBM)
+1. Thao tác tạo khóa chính cho bảng dữ liệu GiaoVien.
+![GiaoVien (2)](https://github.com/user-attachments/assets/5cffacf5-53ad-4f6c-b73b-8ed4a61b7bb8)
+2. Tiếp theo là lưu bảng với tên GiaoVien như hình.
+![GiaoVien (3)](https://github.com/user-attachments/assets/5b181e53-ee20-4bbe-95ae-28817dd52ada)
+3. Thiết lập điều kiện CK cho bảng GiaoVien tại trường NgaySinh với điều kiện như hình.
+![GiaoVien (1)](https://github.com/user-attachments/assets/fd4d7234-62ff-4680-9201-5d5fbc8e5148)
 
-## Thao tác tạo bảng dữ liệu: Khoa(#maKhoa,tenKhoa)
 
-## Thao tác tạo bảng dữ liệu: MonHoc(#mamon,Tenmon,STC)
+### Thao tác tạo bảng dữ liệu: BoMon(#MaBM,tenBM,@maKhoa)
+1. Thao tác tạo khóa chính cho bảng dữ liệu BoMon.
+![BoMon (2)](https://github.com/user-attachments/assets/f54e3bb3-6eaf-459f-9758-ebbcab19ed6a)
+2. Tiếp theo là lưu bảng với tên BoMon như hình.
+![BoMon (1)](https://github.com/user-attachments/assets/ead53f46-9a93-486d-b098-83f6a95615b4)
 
-## Thao tác tạo bảng dữ liệu: LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
 
-## Thao tác tạo bảng dữ liệu: DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
+### Thao tác tạo bảng dữ liệu: Khoa(#maKhoa,tenKhoa)
+1. Thao tác tạo khóa chính cho bảng dữ liệu Khoa.
+![Khoa (2)](https://github.com/user-attachments/assets/7f9783ae-2fc0-4f4d-88bf-ffea4f302bb2)
+2. Tiếp theo là lưu bảng với tên Khoa như hình.
+![Khoa (1)](https://github.com/user-attachments/assets/83ae00cb-f449-4297-a15b-d7801cb567e7)
 
-## 
+### Thao tác tạo bảng dữ liệu: MonHoc(#mamon,Tenmon,STC)
+1. Thao tác tạo khóa chính cho bảng dữ liệu MonHoc.
+
+2. Tiếp theo là lưu bảng với tên MonHoc như hình.
+
+
+### Thao tác tạo bảng dữ liệu: LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
+1. Thao tác tạo khóa chính cho bảng dữ liệu LopHP.
+
+2. Tiếp theo là lưu bảng với tên LopHP như hình.
+
+
+### Thao tác tạo bảng dữ liệu: DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
+1. Thao tác tạo khóa chính cho bảng dữ liệu DKMH.
+
+2. Tiếp theo là lưu bảng với tên DKMH như hình.
+
