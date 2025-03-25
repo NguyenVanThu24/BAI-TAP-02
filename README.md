@@ -2,7 +2,7 @@
 
 # BÀI TẬP VỀ NHÀ 02 - MÔN HỆ QUẢN TRỊ CSDL:
 
-***DEADLINE: 23H59 NGÀY 25/03/2025***
+# ***DEADLINE: 23H59 NGÀY 25/03/2025***
 
 ## ĐIỀU KIỆN: (ĐÃ LÀM XONG BÀI 1)
 1. Đã cài đặt SQL Server 2022 Dev.
