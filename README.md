@@ -1,8 +1,8 @@
-# Bài tập 02 của sinh viên: K225480106062 - Nguyễn Văn Thứ - Môn Hệ quản trị CSDL.
+# <p align="center">Bài tập 02 của sinh viên: K225480106062 - Nguyễn Văn Thứ - Môn Hệ quản trị CSDL.</p>
 
-# BÀI TẬP VỀ NHÀ 02 - MÔN HỆ QUẢN TRỊ CSDL:
+# <p align="center">BÀI TẬP VỀ NHÀ 02 - MÔN HỆ QUẢN TRỊ CSDL:</p>
 
-# ***DEADLINE: 23H59 NGÀY 25/03/2025***
+# <p align="center">***DEADLINE: 23H59 NGÀY 25/03/2025***</p>
 
 ## ĐIỀU KIỆN: (ĐÃ LÀM XONG BÀI 1)
 1. Đã cài đặt SQL Server 2022 Dev.
@@ -45,9 +45,7 @@
 4. Kết quả AI phải phù hợp với yêu cầu, nếu quá sai lệch <=> sv ko đọc => Cấm thi
 5. Nên nhớ: cấm thi là ko có vùng cấm và thầy chưa bao giờ nói đùa về việc cấm thi.
 
-_____
-
-# Bài Làm
+# <p align="center">Bài Làm</p>
 
 ### Quá trình tạo New Database: Click chuột phải vào Databases -> Click vào New Database -> Thực hiện các thao tác như đặt tên, chọn nơi lưu file và chọn OK dể hoàn tất quá trình tạo Database.
 ![image](https://github.com/user-attachments/assets/dd826aed-e2f9-47bf-9cca-c0c458323db8)
@@ -161,4 +159,5 @@ _____
 ### Thao tác thực hiện chuyển đồ hoạ từ Database và các bảng trên thành lệnh SQL tương đương. lưu tất cả các lệnh SQL trong file: Script_DML.sql: Click chuột phải vào Database và các bảng chọn -> Sciprt Database as -> CREATE To -> New Query Editor Window.
 ![Ảnh chụp màn hình 2025-03-25 195805](https://github.com/user-attachments/assets/6638f312-ebbe-4a28-8b17-00f32493b0a3)
 
-### Sau khi hoàn thành xây dựng Database và các bảng với các trường theo yêu cầu thì cá nhân em Upload File Script_DML.sql lên Github, mong thầy dành thời gian xem bài của em và chỉ ra cho em điểm nào cần cải thiện và khắc phục để em kịp thời chỉnh sửa và rút kinh nghiệm cho những lần làm bài tiếp theo. Em xin trân thành cảm ơn ạ!
+### Sau khi hoàn thành xây dựng Database và các bảng với các trường theo yêu cầu thì cá nhân em đã Upload File Script_DML.sql lên Github.
+# ***<p align="center">THE END</p>***
